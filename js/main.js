@@ -1,6 +1,8 @@
 jQuery(document).ready(function( $ ) {
 
-  // Back to top button
+  // Back to top button Registration on site, rule and general information, fix switching buttons on mobile, centering
+
+
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
